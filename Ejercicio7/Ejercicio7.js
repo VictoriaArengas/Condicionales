@@ -3,13 +3,11 @@
 let dia = prompt("Ingresa un día de la semana")
 
 if (dia.toLowerCase() == ("lunes")) {
-    alert ("Primer día de la semana, ¡Vamos con toda! 😉");
-}else if (dia.toLowerCase() == ("martes") || ("miercoles") || ("jueves")) {
-    alert ("Vas muy bien ¡Ánimo! 😁");
-}else if (dia.toLowerCase() == ("viernes")) {
-    alert ("Se acerca el fin de semana 😎");
-}else if(dia.toLowerCase() == ("sabado") || ("domingo")) {
-    alert ("Que tengas un gran fin de semana 🤩");
-}else {
-    alert ("Por favor ingresa un día de la semana");
+    alert("Primer día de la semana, ¡Vamos con toda! 😉");
+} else if (dia.toLowerCase() == ("viernes")) {
+    alert("Se acerca el fin de semana 😎");
+} else if (dia.toLowerCase() == ("sabado") || dia.toLowerCase() == ("domingo")) {
+    alert("Que tengas un gran fin de semana 🤩");
+} else {
+    alert("Vas muy bien ¡Ánimo! 😁")
 }
